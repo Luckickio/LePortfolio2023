@@ -1,0 +1,51 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JS",
+    "imageSrc": "skills/JS.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/SQL.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Bash",
+    "imageSrc": "skills/bash.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "skills/PHP.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/C.png"
+  },
+
+  {
+    "title": "C#",
+    "imageSrc": "skills/cs.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/Python.png"
+  }
+]

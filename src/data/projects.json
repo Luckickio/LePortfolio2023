@@ -1,0 +1,18 @@
+[
+  {
+    "title": " Le Portfolio",
+    "imageSrc": "projects/Portfolio.png",
+    "description": "Portfolio (celui actuel) réalisé essentiellement avec le framework REACT.",
+    "skills": ["HTML", "CSS", "Javascript", "React", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Luckickio/LePortfolio"
+  },
+  {
+    "title": "GCR",
+    "imageSrc": "projects/GCR.png",
+    "description": "Le projet GCR GSB est une application web de gestion de pharmacopée et de liste de praticiens.",
+    "skills": ["HTML", "CSS", "PHP"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Luckickio/GCR"
+  }
+]
