@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import navbar from "../../data/navbar.json";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Lucas GUELL
+        {navbar.name}
       </a>
       <div className={styles.menu}>
         <img
@@ -18,25 +19,18 @@ export const Navbar = () => {
               ? getImageUrl("nav/closeIcon.png")
               : getImageUrl("nav/menuIcon.png")
           }
-          alt="menu-button"
+          alt={navbar.menuButtonAlt}
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
         >
-          <li>
-            <a href="#About">À propos</a>
-          </li>
-          <li>
-            <a href="#Expérience">Expériences</a>
-          </li>
-          <li>
-            <a href="#Projects">Projets</a>
-          </li>
-          <li>
-            <a href="#Contact">Contact</a>
-          </li>
+          {navbar.links.map((link, id) => (
+            <li key={id}>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

@@ -1,0 +1,23 @@
+{
+  "title": "à Propos",
+  "items": [
+    {
+      "title": "Développeur Frontend",
+      "description": "Avec une connaissance solide en HTML, CSS, JavaScript et React, je travaille à développer des interfaces web dynamiques et réactives.",
+      "icon": "about/cursorIcon.png",
+      "iconAlt": "Cursor Icon"
+    },
+    {
+      "title": "Développeur Backend",
+      "description": "Familier avec PHP, Node.js et les systèmes Linux, je participe à la mise en place de solutions backend adaptées et performantes.",
+      "icon": "about/serverIcon.png",
+      "iconAlt": "Server Icon"
+    },
+    {
+      "title": "UX / UI Designer",
+      "description": "Passionné par l'expérience utilisateur, je conçois des interfaces intuitives et esthétiquement plaisantes.",
+      "icon": "about/uiIcon.png",
+      "iconAlt": "UI Icon"
+    }
+  ]
+}

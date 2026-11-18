@@ -1,0 +1,58 @@
+.container {
+  background-color: #000;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow: hidden;
+  height: 320px;
+  width: 42%;
+}
+
+.output {
+  color: #d4d4d4;
+  font-family: 'Courier New', monospace;
+  font-size: 1em;
+  line-height: 1.5em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.keyword {
+  color: #569cd6;
+}
+
+.control {
+  color: #c586c0;
+}
+
+.variable {
+  color: #9cdcfe;
+}
+
+.string {
+  color: #ce9178;
+}
+
+.tag {
+  color: #569cd6;
+}
+
+.component {
+  color: #4ec9b0;
+}
+
+.func {
+  color: #dcdcaa;
+}
+
+.bracket {
+  color: #808080;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    width: 60%;
+    height: 200px;
+    margin-top: 30px;
+  }
+}

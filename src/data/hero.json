@@ -1,0 +1,10 @@
+{
+  "title": "Bienvenue",
+  "description": "Développeur polyvalent : Compétences Full Stack, Cybersécurité et maîtrise de diverses technologies.",
+  "button": {
+    "label": "Contact",
+    "href": "mailto:guelllucas@hotmail.fr"
+  },
+  "image": "hero/heroImage.png",
+  "imageAlt": "Her"
+}

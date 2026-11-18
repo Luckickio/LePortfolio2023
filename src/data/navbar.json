@@ -1,0 +1,22 @@
+{
+  "name": "Lucas GUELL",
+  "menuButtonAlt": "menu-button",
+  "links": [
+    {
+      "label": "À propos",
+      "href": "#About"
+    },
+    {
+      "label": "Expériences",
+      "href": "#Expérience"
+    },
+    {
+      "label": "Projets",
+      "href": "#Projects"
+    },
+    {
+      "label": "Contact",
+      "href": "#Contact"
+    }
+  ]
+}
