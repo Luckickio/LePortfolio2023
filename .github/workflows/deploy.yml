@@ -38,7 +38,7 @@ jobs:
 
           git clone --depth 1 "$SITE_REPO" site
           mkdir -p "site/$TARGET_DIR"
-          rsync -a --delete dist/ "site/$TARGET_DIR/"
+          rsync -a --delete --chmod=D755,F644 dist/ "site/$TARGET_DIR/"
 
           cd site
           git config user.name "github-actions[bot]"
