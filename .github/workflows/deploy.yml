@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SITE_REPO: git@github.com:Luckickio/Luckickio.github.io.git
-      TARGET_DIR: projects/LePortfolio2023
+      TARGET_DIR: Projects/LePortfolio2023
     steps:
       - uses: actions/checkout@v5
 

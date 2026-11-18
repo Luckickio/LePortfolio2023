@@ -10,7 +10,7 @@ Portfolio web personnel de 2023, statique et responsive, développé avec React,
 [![ESLint](https://img.shields.io/badge/ESLint-10-4B32C3?logo=eslint&logoColor=white)](https://eslint.org/)
 [![Licence MIT](https://img.shields.io/badge/Licence-MIT-green)](LICENCE)
 
-Version en ligne : [lucasguell.com/projects/LePortfolio2023](https://lucasguell.com/projects/LePortfolio2023/)
+Version en ligne : [lucasguell.com/Projects/LePortfolio2023](https://lucasguell.com/Projects/LePortfolio2023/)
 
 ![Aperçu du site](assets/projects/Portfolio.png)
 
